@@ -5,5 +5,8 @@ email: lqlgw_pkusms@stu.pku.edu.cn # your email address
 orcid_id: 0009-0000-7241-1261 # your ORCID ID
 scholar_userid: eKVpdz4AAAAJ # your Google Scholar ID
 github_username: lqmath1824 # your GitHub username
-researchgate: Qiao-Li-66 # your ResearchGate username
 rss_icon: true # comment this line to hide the RSS icon
+custom_social:
+  ResearchGate:
+    logo: https://www.researchgate.net/favicon.ico
+    url: https://www.researchgate.net/profile/Qiao-Li-66
