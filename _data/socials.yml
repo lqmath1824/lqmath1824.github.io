@@ -7,6 +7,6 @@ scholar_userid: eKVpdz4AAAAJ # your Google Scholar ID
 github_username: lqmath1824 # your GitHub username
 rss_icon: true # comment this line to hide the RSS icon
 custom_social:
-  ResearchGate:
-    logo: https://www.researchgate.net/favicon.ico
-    url: https://www.researchgate.net/profile/Qiao-Li-66
+  logo: https://www.researchgate.net/favicon.ico
+  title: ResearchGate
+  url: https://www.researchgate.net/profile/Qiao-Li-66
