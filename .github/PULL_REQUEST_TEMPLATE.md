@@ -1,30 +1,46 @@
-<!--
-  Thanks for creating a Pull Request! Before you submit, please make sure
-  you've done the following:
-
-  - Read the contributing document at https://github.com/mmistakes/minimal-mistakes#contributing
--->
-
-<!--
-  Choose one of the following by uncommenting it:
--->
-
-<!-- This is a bug fix. -->
-<!-- This is an enhancement or feature. -->
-<!-- This is a documentation change. -->
-
 ## Summary
 
-<!--
-  Provide a description of what your pull request changes.
--->
+Describe what changed and why.
 
-## Context
+## Ownership Routing
 
-<!--
-  Is this related to any GitHub issue(s)?
--->
+- [ ] I confirmed this PR targets the correct repo based on `docs/BOUNDARIES.md`.
+- [ ] This PR only changes starter-owned scope (`al-folio`) **or** I am porting a routed change and linked the owning repo issue/PR.
 
-<!--
-  Please confirm that you want to submit this Pull Request to Minimal Mistakes, the free Jekyll theme by Michael Rose, by deleting this comment block.
--->
+Owning repo (if not starter): <!-- e.g., al-org-dev/al-folio-core -->
+Related issue/PR: <!-- link -->
+
+## Plugin Ecosystem (if applicable)
+
+- [ ] Not applicable
+- [ ] This PR proposes a plugin for **featured-only** listing.
+- [ ] This PR proposes a plugin for **bundled** starter inclusion.
+
+If plugin-related, provide:
+
+- Plugin repo URL:
+- Gem name:
+- Jekyll plugin id:
+- Compatibility (`al_folio_min`/`al_folio_max`):
+- Demo page/post path:
+- Maintainer contact:
+
+## Starter Wiring Changes
+
+- [ ] Not applicable
+- [ ] Updated `Gemfile` dependency wiring.
+- [ ] Updated `_config.yml` plugin activation/config.
+- [ ] Updated `_data/featured_plugins.yml` metadata.
+
+## Validation
+
+- [ ] `npm ci`
+- [ ] `bundle exec jekyll build`
+- [ ] `npm run lint:prettier`
+- [ ] `npm run lint:style-contract`
+- [ ] Integration tests (`test/integration_*.sh`) as needed
+- [ ] Visual tests (`npm run test:visual`) as needed
+
+## Notes
+
+Compatibility, migration implications, and follow-ups:
