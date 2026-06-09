@@ -1,13 +1,13 @@
 ---
 layout: course
-title: Data Science Fundamentals
-description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Prof. Data
-year: 2024
+title: Calculus C(II)
+description: This course is the second-semester course of Calculus C. Contains multi-variable calculus, power series and multi-integration. TBM.
+instructor: Prof. 王超
+year: 2026
 term: Spring
-location: Science Building, Room 202
-time: Mondays and Wednesdays, 2:00-3:30 PM
-course_id: data-science-fundamentals
+location: 理教203
+time: Tuesday 8:00-9:50; Thursday 10:10-12:00
+course_id: calculus-c-ii
 schedule:
   - week: 1
     date: Feb 5

@@ -1,13 +1,13 @@
 ---
 layout: course
-title: Introduction to Machine Learning
-description: This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.
-instructor: Prof. Example
-year: 2023
+title: Linear Algebra B
+description: This course is the B level linear algebra, containing linear space theory, matrix theory and Jordan canonical form.
+instructor: Prof. 章复熹
+year: 2025
 term: Fall
 location: Main Campus, Room 301
 time: Tuesdays and Thursdays, 10:00-11:30 AM
-course_id: intro-machine-learning
+course_id: linear-algebra-b
 schedule:
   - week: 1
     date: Sept 5
