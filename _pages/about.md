@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Student in Mathematics, <a href='https://www.pku.edu.cn/'>Peking University</a>
 
