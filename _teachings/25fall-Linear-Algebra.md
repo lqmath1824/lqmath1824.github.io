@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Linear Algebra B
+title: Linear Algebra B ★
 description: This course is the B level linear algebra, containing linear space theory, matrix theory and Jordan canonical form.
 instructor: Prof. 章复熹
 year: 2025

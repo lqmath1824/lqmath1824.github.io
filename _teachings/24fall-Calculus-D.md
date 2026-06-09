@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Calculus D
+title: Calculus D ★
 description: This course is the D level calculus, containing linear space theory, matrix theory and Jordan canonical form.
 instructor: Prof. 肖左利
 year: 2024
