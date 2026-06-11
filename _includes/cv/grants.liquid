@@ -1,0 +1,64 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      <div class="row">
+        {% if entry.date %}
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{ entry.date | split: '-' | slice: 0, 1 | join: '' }}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+            {% if entry.url and entry.url != '' %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">
+                <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.name }}</a>
+              </h6>
+            {% elsif entry.name %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.name }}</h6>
+            {% endif %}
+            {% if entry.funder %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ entry.funder }}</h6>
+            {% endif %}
+            <div class="ml-1 ml-md-4" style="font-size: 0.9rem; color: #666;">
+              {% if entry.amount and entry.amount != '' %}
+                {{ entry.amount }}
+              {% endif %}
+              {% if entry.duration and entry.duration != '' %}
+                &middot; {{ entry.duration }}
+              {% endif %}
+            </div>
+          </div>
+        {% else %}
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            {% if entry.url and entry.url != '' %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">
+                <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.name }}</a>
+              </h6>
+            {% elsif entry.name %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.name }}</h6>
+            {% endif %}
+            {% if entry.funder %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ entry.funder }}</h6>
+            {% endif %}
+            <div class="ml-1 ml-md-4" style="font-size: 0.9rem; color: #666;">
+              {% if entry.amount and entry.amount != '' %}
+                {{ entry.amount }}
+              {% endif %}
+              {% if entry.duration and entry.duration != '' %}
+                &middot; {{ entry.duration }}
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
