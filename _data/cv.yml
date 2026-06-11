@@ -67,6 +67,7 @@ cv:
         location: Shanghai Jiao Tong University, Shanghai
         date: 2023-11-01
         type: Invited Presentation
+        url: "https://affairs.sjtu.edu.cn/index.php?m=app&mid=27&v=newsview&id=295"
 
     Attended_Conferences:
       - name: Conference on Representations of Quivers in Mathematics and String Theory
@@ -154,7 +155,7 @@ cv:
         funder: NSFC
         date: 2026
         amount: "300,000 CNY"
-        duration: 2026–2028
+        duration: 2026-2028
         url: ""
 
     Certificates:
