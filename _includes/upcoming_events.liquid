@@ -1,0 +1,42 @@
+{% if site.data.upcoming_events and site.data.upcoming_events != empty %}
+  <div class="upcoming-events mt-4">
+    <h2 class="section-title">
+      <i class="fa-solid fa-calendar-check"></i> Upcoming Events
+    </h2>
+    <ul class="list-unstyled">
+      {% for event in site.data.upcoming_events %}
+        <li class="upcoming-event-item mb-3">
+          <div class="d-flex align-items-baseline">
+            <span class="event-date text-muted" style="min-width: 7rem;">
+              {% assign d = event.date | date: "%b %Y" %}
+              {{ d }}
+            </span>
+            <div>
+              {% if event.type %}
+                <span class="badge bg-primary bg-opacity-75 me-2">{{ event.type }}</span>
+              {% endif %}
+              <strong>
+                {% if event.url and event.url != "" %}
+                  <a href="{{ event.url }}" target="_blank" rel="noopener noreferrer">{{ event.title }}</a>
+                {% else %}
+                  {{ event.title }}
+                {% endif %}
+              </strong>
+              <div class="text-muted small">
+                {% if event.conference and event.conference != "" %}
+                  {{ event.conference }}
+                {% endif %}
+                {% if event.conference and event.conference != "" and event.location and event.location != "" %}
+                  &middot;
+                {% endif %}
+                {% if event.location and event.location != "" %}
+                  {{ event.location }}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

@@ -1,0 +1,24 @@
+# Upcoming events displayed on the About page.
+# Events are shown in the order listed here.
+# Remove an event once its date has passed.
+# Fields:
+#   title      — talk title or event name (required)
+#   conference — name of the conference / workshop / seminar (optional)
+#   location   — city, country or institution (optional)
+#   date       — ISO date YYYY-MM-DD (required)
+#   type       — e.g. Invited Talk, Contributed Talk, Poster, Participant (optional)
+#   url        — link to conference page / slides (optional)
+
+- title: "Around Singularities in Poisson Geometry"
+  conference: BIRS Workshop
+  location: Institute for Advanced Study in Mathematics, Hangzhou
+  date: 2026-08-01
+  type: Invited Lightning Talk
+  url: ""
+
+- title: "Stokes Phenomenon and Quantum Supergroups"
+  conference: "Workshop on Quantum Algebra and Integrable Systems"
+  location: Beijing, China
+  date: 2026-10-15
+  type: Invited Talk
+  url: ""
