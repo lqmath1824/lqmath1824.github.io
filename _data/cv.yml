@@ -60,6 +60,7 @@ cv:
         location: Institute for Advanced Study in Mathematics, Hangzhou
         date: 2025-08-01
         type: Invited Lightning Talk
+        url: "https://www.birs.ca/events/2025/5-day-workshops/25w5442"
 
       - title: Chun-Tsung Scholar CURE Program Exchange Conference
         conference: ""
@@ -71,14 +72,17 @@ cv:
       - name: Conference on Representations of Quivers in Mathematics and String Theory
         location: Institute for Basic Science, Pohang
         date: 2025-12-01
+        url: "https://cgp.ibs.re.kr/conferences/2025CRQMST/"
 
       - name: Cluster Algebra, Representation Theory and Algebraic Geometry
         location: the University of Hong Kong, Hong Kong
         date: 2025-11-01
+        url: "https://hkumath.hku.hk/~imr/event/Conference2025/index.php"
 
       - name: Workshop on Integrable Systems
         location: Beijing Institute of Mathematical Sciences and Applications, Beijing
         date: 2023-05-01
+        url: "https://www.bimsa.cn/zh-CN/research_detail/integrablesystemsworkshop.html"
 
     Seminars:
       - name: Seminar on Frobenius Manifolds
