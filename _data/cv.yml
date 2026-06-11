@@ -134,8 +134,27 @@ cv:
       - name: Road Cycling
         icon: fa-solid fa-bicycle
 
-    Employment: []
+    Employment:
+      - company: Institute for Advanced Study
+        position: Visiting Scholar
+        location: Princeton, NJ
+        start_date: 2027
+        end_date: 2028
+        summary: Short-term academic visit for collaborative research.
+        highlights:
+          - Collaborated with Prof. Example on quantum groups.
+        url: ""
 
-    Grants: []
+    Grants:
+      - name: National Natural Science Foundation Young Scientists Fund
+        funder: NSFC
+        date: 2026
+        amount: "300,000 CNY"
+        duration: 2026–2028
+        url: ""
 
-    Certificates: []
+    Certificates:
+      - name: Teaching Certificate for Higher Education
+        issuer: Peking University
+        date: 2025
+        url: ""
