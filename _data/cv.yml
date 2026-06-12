@@ -5,7 +5,7 @@ cv:
   location: Beijing, China
   image: ""
   summary: >-
-    Ph.D. student in pure and applied mathematics at Peking University.
+    Ph.D. student in pure mathematics at Peking University.
     Research interests include quantum algebra, representation theory, and mathematical physics.
 
   social_networks:
@@ -16,7 +16,7 @@ cv:
     Education:
       - institution: School of Mathematical Sciences, Peking University
         location: Beijing, China
-        studyType: Ph.D. in Pure and Applied Mathematics
+        studyType: Ph.D. in Pure Mathematics
         start_date: 2024
         end_date: 2029
         advisor: Prof. Xiaomeng Xu
