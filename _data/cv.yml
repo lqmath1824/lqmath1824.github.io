@@ -21,7 +21,7 @@ cv:
         start_date: 2024
         end_date: 2029
         advisor: Prof. Xiaomeng Xu
-        thesis: ""
+        thesis: "test thesis"
 
       - institution: Peking University
         location: Beijing, China
@@ -29,8 +29,6 @@ cv:
         studyType: B.A. in Chinese Language and Literature
         start_date: 2020
         end_date: 2024
-        advisor: ""
-        thesis: ""
 
       - institution: Peking University
         location: Beijing, China
@@ -38,8 +36,6 @@ cv:
         studyType: B.S. in Pure and Applied Mathematics
         start_date: 2020
         end_date: 2024
-        advisor: ""
-        thesis: ""
 
     Awards:
       - title: Merit Student Pacesetter
