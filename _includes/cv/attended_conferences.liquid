@@ -9,7 +9,7 @@
                 <tr>
                   <td>
                     <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
-                      {{ entry.date | split: '-' | slice: 0, 1 | join: '' }}
+                      {{ entry.date | date: "%Y-%m" }}
                     </span>
                   </td>
                 </tr>
