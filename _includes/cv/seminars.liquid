@@ -2,9 +2,6 @@
   {% for entry in entries %}
     <li class="list-group-item">
       <div class="d-flex align-items-baseline flex-wrap" style="gap: 0.3rem 0.5rem;">
-        {% if entry.role and entry.role != '' %}
-          <span class="badge bg-primary bg-opacity-75 font-weight-light">{{ entry.role }}</span>
-        {% endif %}
         <span class="text-muted small">
           {% if entry.start_date %}
             {{ entry.start_date | date: "%Y-%m" }}
@@ -13,8 +10,11 @@
             {{ entry.date | date: "%Y-%m" }}
           {% endif %}
         </span>
+        {% if entry.role and entry.role != '' %}
+          <span class="text-muted small">&middot; {{ entry.role }}</span>
+        {% endif %}
         {% if entry.name %}
-          <strong>{{ entry.name }}</strong>
+          <strong>&middot; {{ entry.name }}</strong>
         {% endif %}
         {% if entry.institution and entry.institution != '' %}
           <span class="text-muted small">&middot; {{ entry.institution | markdownify | remove: '<p>' | remove: '</p>' }}</span>

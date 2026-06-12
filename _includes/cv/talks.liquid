@@ -13,15 +13,19 @@
                     </span>
                   </td>
                 </tr>
+                {% if entry.type %}
+                  <tr>
+                    <td>
+                      <span class="badge bg-primary bg-opacity-75 font-weight-light align-middle" style="min-width: 75px; margin-top: 2px;">
+                        {{ entry.type }}
+                      </span>
+                    </td>
+                  </tr>
+                {% endif %}
               </tbody>
             </table>
           </div>
           <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
-            <div class="ml-1 ml-md-4">
-              {% if entry.type %}
-                <span class="badge bg-primary bg-opacity-75 font-weight-light me-2">{{ entry.type }}</span>
-              {% endif %}
-            </div>
             {% if entry.url and entry.url != '' %}
               <h6 class="title font-weight-bold ml-1 ml-md-4">
                 <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
