@@ -14,7 +14,7 @@ cv:
 
   sections:
     Education:
-      - institution: [School of Mathematical Sciences, Peking University](https://math.pku.edu.cn)
+      - institution: "[School of Mathematical Sciences, Peking University](https://math.pku.edu.cn)"
         location: Beijing, China
         studyType: Ph.D. in Pure and Applied Mathematics
         start_date: 2024
@@ -22,17 +22,18 @@ cv:
         advisor: Prof. Xiaomeng Xu
         thesis: "test thesis"
 
-      - institution: [Department of Chinese Language and Literature, Peking University](https://chinese.pku.edu.cn)
+      - institution: "[Department of Chinese Language and Literature, Peking University](https://chinese.pku.edu.cn)"
         location: Beijing, China
         studyType: B.A. in Chinese Language and Literature
         start_date: 2020
         end_date: 2024
 
-      - institution: [School of Mathematical Sciences, Peking University](https://math.pku.edu.cn)
+      - institution: "[School of Mathematical Sciences, Peking University](https://math.pku.edu.cn)"
         location: Beijing, China
         studyType: B.S. in Pure and Applied Mathematics
         start_date: 2020
         end_date: 2024
+
 
     Awards:
       - title: Merit Student Pacesetter
@@ -54,7 +55,7 @@ cv:
     Talks:
       - title: "Around Singularities in Poisson Geometry"
         conference: BIRS Workshop
-        location: [Institute for Advanced Study in Mathematics, Hangzhou](http://www.iasm.zju.edu.cn)
+        location: "[Institute for Advanced Study in Mathematics, Hangzhou](http://www.iasm.zju.edu.cn)"
         date: 2025-08-01
         type: Invited Lightning Talk
         url: "https://www.birs.ca/events/2025/5-day-workshops/25w5442"
@@ -68,17 +69,17 @@ cv:
 
     Attended_Conferences:
       - name: Conference on Representations of Quivers in Mathematics and String Theory
-        location: [Institute for Basic Science, Pohang](https://www.ibs.re.kr/eng.do)
+        location: "[Institute for Basic Science, Pohang](https://www.ibs.re.kr/eng.do)"
         date: 2025-12-01
         url: "https://cgp.ibs.re.kr/conferences/2025CRQMST/"
 
       - name: Cluster Algebra, Representation Theory and Algebraic Geometry
-        location: [the University of Hong Kong, Hong Kong](https://www.hku.hk)
+        location: "[the University of Hong Kong, Hong Kong](https://www.hku.hk)"
         date: 2025-11-01
         url: "https://hkumath.hku.hk/~imr/event/Conference2025/index.php"
 
       - name: Workshop on Integrable Systems
-        location: [Beijing Institute of Mathematical Sciences and Applications, Beijing](https://www.bimsa.cn)
+        location: "[Beijing Institute of Mathematical Sciences and Applications, Beijing](https://www.bimsa.cn)"
         date: 2023-05-01
         url: "https://www.bimsa.cn/zh-CN/research_detail/integrablesystemsworkshop.html"
 
