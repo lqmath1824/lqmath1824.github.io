@@ -30,7 +30,7 @@
             {% elsif entry.title %}
               <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
             {% endif %}
-            <div class="ml-1 ml-md-4" style="font-size: 0.95rem;">
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">
               {% if entry.conference and entry.conference != '' %}
                 {% capture conf %}{{ entry.conference | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
                 {{ conf | replace: '<a ', '<a style="color:inherit;" ' }}
@@ -42,7 +42,7 @@
                 {% capture loc %}{{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
                 {{ loc | replace: '<a ', '<a style="color:inherit;" ' }}
               {% endif %}
-            </div>
+            </h6>
           </div>
         {% else %}
           <div class="col-xs-12 col-sm-12 col-md-12">
@@ -58,7 +58,7 @@
             {% elsif entry.title %}
               <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
             {% endif %}
-            <div class="ml-1 ml-md-4" style="font-size: 0.95rem;">
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">
               {% if entry.conference and entry.conference != '' %}
                 {% capture conf %}{{ entry.conference | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
                 {{ conf | replace: '<a ', '<a style="color:inherit;" ' }}
@@ -70,7 +70,7 @@
                 {% capture loc %}{{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
                 {{ loc | replace: '<a ', '<a style="color:inherit;" ' }}
               {% endif %}
-            </div>
+            </h6>
           </div>
         {% endif %}
       </div>
