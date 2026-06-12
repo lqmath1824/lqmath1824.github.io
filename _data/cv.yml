@@ -14,25 +14,22 @@ cv:
 
   sections:
     Education:
-      - institution: Peking University
+      - institution: [School of Mathematical Sciences, Peking University](https://math.pku.edu.cn)
         location: Beijing, China
-        area: School of Mathematical Sciences
         studyType: Ph.D. in Pure and Applied Mathematics
         start_date: 2024
         end_date: 2029
         advisor: Prof. Xiaomeng Xu
         thesis: "test thesis"
 
-      - institution: Peking University
+      - institution: [Department of Chinese Language and Literature, Peking University](https://chinese.pku.edu.cn)
         location: Beijing, China
-        area: Department of Chinese Language and Literature
         studyType: B.A. in Chinese Language and Literature
         start_date: 2020
         end_date: 2024
 
-      - institution: Peking University
+      - institution: [School of Mathematical Sciences, Peking University](https://math.pku.edu.cn)
         location: Beijing, China
-        area: School of Mathematical Sciences
         studyType: B.S. in Pure and Applied Mathematics
         start_date: 2020
         end_date: 2024
