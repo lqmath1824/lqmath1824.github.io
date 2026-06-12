@@ -33,14 +33,14 @@
             <div class="ml-1 ml-md-4" style="font-size: 0.95rem;">
               {% if entry.conference and entry.conference != '' %}
                 {% capture conf %}{{ entry.conference | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
-                {{ conf | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}
+                {{ conf | replace: '<a ', '<a style="color:inherit;" ' }}
               {% endif %}
               {% if entry.conference and entry.conference != '' and entry.location and entry.location != '' %}
                 &middot;
               {% endif %}
               {% if entry.location and entry.location != '' %}
                 {% capture loc %}{{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
-                {{ loc | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}
+                {{ loc | replace: '<a ', '<a style="color:inherit;" ' }}
               {% endif %}
             </div>
           </div>
@@ -61,14 +61,14 @@
             <div class="ml-1 ml-md-4" style="font-size: 0.95rem;">
               {% if entry.conference and entry.conference != '' %}
                 {% capture conf %}{{ entry.conference | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
-                {{ conf | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}
+                {{ conf | replace: '<a ', '<a style="color:inherit;" ' }}
               {% endif %}
               {% if entry.conference and entry.conference != '' and entry.location and entry.location != '' %}
                 &middot;
               {% endif %}
               {% if entry.location and entry.location != '' %}
                 {% capture loc %}{{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
-                {{ loc | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}
+                {{ loc | replace: '<a ', '<a style="color:inherit;" ' }}
               {% endif %}
             </div>
           </div>
