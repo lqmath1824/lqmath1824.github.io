@@ -11,17 +11,14 @@
                     <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
                       {{ entry.date | date: "%Y-%m" }}
                     </span>
-                  </td>
-                </tr>
-                {% if entry.type %}
-                  <tr>
-                    <td>
+                    {% if entry.type %}
+                      <br>
                       <span class="badge bg-primary bg-opacity-75 font-weight-light align-middle" style="min-width: 75px; margin-top: 2px;">
                         {{ entry.type }}
                       </span>
-                    </td>
-                  </tr>
-                {% endif %}
+                    {% endif %}
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -35,13 +32,15 @@
             {% endif %}
             <div class="ml-1 ml-md-4" style="font-size: 0.95rem;">
               {% if entry.conference and entry.conference != '' %}
-                {{ entry.conference | markdownify | remove: '<p>' | remove: '</p>' }}
+                {% capture conf %}{{ entry.conference | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+                {{ conf | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}
               {% endif %}
               {% if entry.conference and entry.conference != '' and entry.location and entry.location != '' %}
                 &middot;
               {% endif %}
               {% if entry.location and entry.location != '' %}
-                {{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}
+                {% capture loc %}{{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+                {{ loc | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}
               {% endif %}
             </div>
           </div>
@@ -61,13 +60,15 @@
             {% endif %}
             <div class="ml-1 ml-md-4" style="font-size: 0.95rem;">
               {% if entry.conference and entry.conference != '' %}
-                {{ entry.conference | markdownify | remove: '<p>' | remove: '</p>' }}
+                {% capture conf %}{{ entry.conference | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+                {{ conf | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}
               {% endif %}
               {% if entry.conference and entry.conference != '' and entry.location and entry.location != '' %}
                 &middot;
               {% endif %}
               {% if entry.location and entry.location != '' %}
-                {{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}
+                {% capture loc %}{{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+                {{ loc | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}
               {% endif %}
             </div>
           </div>

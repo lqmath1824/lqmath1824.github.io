@@ -25,7 +25,8 @@
               <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.name }}</h6>
             {% endif %}
             {% if entry.location and entry.location != '' %}
-              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+              {% capture loc %}{{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ loc | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}</h6>
             {% endif %}
           </div>
         {% else %}
@@ -38,7 +39,8 @@
               <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.name }}</h6>
             {% endif %}
             {% if entry.location and entry.location != '' %}
-              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+              {% capture loc %}{{ entry.location | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ loc | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}</h6>
             {% endif %}
           </div>
         {% endif %}

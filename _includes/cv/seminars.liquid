@@ -17,7 +17,8 @@
           <strong>&middot; {{ entry.name }}</strong>
         {% endif %}
         {% if entry.institution and entry.institution != '' %}
-          <span class="text-muted small">&middot; {{ entry.institution | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+          {% capture inst %}{{ entry.institution | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+          <span class="text-muted small">&middot; {{ inst | replace: '<a ', '<a style="color:inherit;text-decoration:underline dotted;" ' }}</span>
         {% endif %}
       </div>
     </li>
