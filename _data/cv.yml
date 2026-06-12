@@ -15,25 +15,20 @@ cv:
   sections:
     Education:
       - institution: Peking University
-        location: Beijing, China
-        area: Pure and Applied Mathematics
-        studyType: Ph.D.
+        area: School of Mathematical Sciences
+        studyType: Ph.D. in Pure and Applied Mathematics
         start_date: 2024
         end_date: 2029
-        advisor: ""
-        thesis: ""
 
       - institution: Peking University
-        location: Beijing, China
-        area: Pure and Applied Mathematics
-        studyType: B.S.
+        area: School of Mathematical Sciences
+        studyType: B.S. in Pure and Applied Mathematics
         start_date: 2020
         end_date: 2024
 
       - institution: Peking University
-        location: Beijing, China
-        area: Chinese Language and Literature
-        studyType: B.A.
+        area: Department of Chinese Language and Literature
+        studyType: B.A. in Chinese Language and Literature
         start_date: 2020
         end_date: 2024
 
@@ -86,16 +81,21 @@ cv:
         url: "https://www.bimsa.cn/zh-CN/research_detail/integrablesystemsworkshop.html"
 
     Seminars:
-      - name: Seminar on Frobenius Manifolds
-        role: Participant
+      - name: Doctoral Forum on Analysis and Differential Equations
+        role: Organizer
         institution: Peking University
-        start_date: 2025-03-01
-        end_date: 2025-05-01
+        date: 2026-04-01
 
       - name: Doctoral Forum on Mathematical Physics
         role: Organizer
         institution: Peking University
         date: 2025-12-01
+
+      - name: Seminar on Frobenius Manifolds
+        role: Participant
+        institution: Peking University
+        start_date: 2025-03-01
+        end_date: 2025-05-01
 
       - name: Seminar on Quantum Groups
         role: Organizer
