@@ -1,7 +1,7 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
     <li class="list-group-item">
-      <div class="d-flex align-items-baseline flex-wrap" style="gap: 0.3rem 0.5rem;">
+      <div class="d-flex justify-content-between align-items-baseline">
         <span class="text-muted small">
           {% if entry.start_date %}
             {{ entry.start_date | date: "%Y-%m" }}
@@ -10,15 +10,20 @@
             {{ entry.date | date: "%Y-%m" }}
           {% endif %}
         </span>
-        {% if entry.role and entry.role != '' %}
-          <span class="text-muted small">&middot; {{ entry.role }}</span>
-        {% endif %}
-        {% if entry.name %}
-          <strong>&middot; {{ entry.name }}</strong>
-        {% endif %}
+        <span>
+          {% if entry.role and entry.role != '' %}
+            <span class="text-muted small">{{ entry.role }}</span>
+            {% if entry.name %} &middot; {% endif %}
+          {% endif %}
+          {% if entry.name %}
+            <strong>{{ entry.name }}</strong>
+          {% endif %}
+        </span>
         {% if entry.institution and entry.institution != '' %}
           {% capture inst %}{{ entry.institution | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
-          <span class="text-muted small">&middot; {{ inst | replace: '<a ', '<a style="color:inherit;" ' }}</span>
+          <span class="text-muted small">{{ inst | replace: '<a ', '<a style="color:inherit;" ' }}</span>
+        {% else %}
+          <span></span>
         {% endif %}
       </div>
     </li>
