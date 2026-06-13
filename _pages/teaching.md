@@ -4,6 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: Teaching assistant experiences, recitation materials, and course resources.
 nav: true
+icon: 📚
 nav_order: 4
 calendar: true
 ---
