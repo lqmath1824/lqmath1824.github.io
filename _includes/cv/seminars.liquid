@@ -2,7 +2,7 @@
   {% for entry in entries %}
     <li class="list-group-item">
       <div class="row align-items-baseline">
-        <div class="col-2">
+        <div class="col-2 ps-2">
           <span class="text-muted small">
             {% if entry.start_date %}
               {{ entry.start_date | date: "%Y-%m" }}
@@ -21,7 +21,7 @@
             <strong>{{ entry.name }}</strong>
           {% endif %}
         </div>
-        <div class="col-2 text-end">
+        <div class="col-2 text-end pe-2">
           {% if entry.institution and entry.institution != '' %}
             {% capture inst %}{{ entry.institution | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
             <span class="text-muted small">{{ inst | replace: '<a ', '<a style="color:inherit;" ' }}</span>
