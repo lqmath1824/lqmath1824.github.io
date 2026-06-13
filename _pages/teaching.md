@@ -2,13 +2,13 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching assistant experiences, recitation materials, and course resources.
 nav: true
 nav_order: 4
 calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics. The star note ★ beside the course name means it has a recitation session where I taught courses individually.
+Teaching assistant experiences at Peking University. Courses labeled <strong>TA with Recitation</strong> include weekly problem-solving sessions with handouts and supplementary materials. Courses labeled <strong>TA</strong> involve grading and office hours without recitation duties.
 
 {% comment %}
 {% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
