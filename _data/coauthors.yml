@@ -1,7 +1,7 @@
 "wang":
   - firstname: ["Zikang"]
-    url: https://arxiv.org/a/wang_zikang arXiv
+    url: https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=zikang+wang&terms-0-field=author&classification-mathematics=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
 
 "xu":
   - firstname: ["Xiaomeng"]
-    url: https://arxiv.org/a/xu_xiaomeng arXiv
+    url: https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=xiaomeng+xu&terms-0-field=author&classification-mathematics=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first
