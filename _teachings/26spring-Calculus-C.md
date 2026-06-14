@@ -9,8 +9,4 @@ term: Spring
 course_id: calculus-c-ii
 ---
 
-## Teaching Assistant
-
-**Instructor:** Prof. 王超
-
-As a TA for the second-semester Calculus C course, I was responsible for grading homework assignments and holding office hours to assist students with multi-variable calculus, power series, and multi-integration.
+As a TA for the second-semester Calculus C course, I was responsible for grading homework assignments and holding office hours to assist students with multi-variable calculus, multiple integral, power series and Fourier transformation.

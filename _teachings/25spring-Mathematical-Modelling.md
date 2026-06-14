@@ -9,8 +9,4 @@ term: Spring
 course_id: mathematical-modelling
 ---
 
-## Teaching Assistant
-
-**Instructor:** Prof. 李若
-
-As a TA, I was responsible for grading homework assignments and holding office hours to assist students with course material and homework questions.
+This course includes a major term project, in which students work in groups to complete the entire process from modeling to solving problems using mathematical methods or computational software, and then to delivering reports and group presentations. As a teaching assistant, I organize the entire process and provide feedback and grading.

@@ -51,8 +51,4 @@ schedule:
         url: /assets/pdf/Recitation_Notes/Calculus_24-25-1/241224-多元函数+邻域等价.pdf
 ---
 
-## Teaching Assistant
-
-**Instructor:** Prof. 肖左利
-
-As a TA with recitation duties, I conducted weekly problem-solving sessions for Calculus D. The recitations covered supplementary examples and exercises.
+As a TA with recitation duties, I conducted recitation sessions every two weeks for Calculus D. The two-houred course covers frequent mistakes in homework, supplementary problems&examples, and extended theory/exercises.

@@ -65,8 +65,4 @@ schedule:
         url: /assets/pdf/Recitation_Notes/Linear_Algebra_25-26-1/习题课准备251222.pdf
 ---
 
-## Teaching Assistant
-
-**Instructor:** Prof. 章复熹
-
-As a TA with recitation duties, I conducted weekly problem-solving sessions for Linear Algebra B. The recitations covered supplementary examples and exercises on linear space theory, matrix theory, and Jordan canonical form.
+As a TA with recitation duties, I conducted recitation sessions every two weeks for Linear Algebra B. The two-houred course covers frequent mistakes in homework, supplementary problems&examples, and extended theory/exercises.
