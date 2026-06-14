@@ -113,24 +113,10 @@ cv:
         end_date: 2024-06-01
 
     Skills:
-      - name: Research Areas
-        keywords: "Quantum Algebra, Representation Theory, Mathematical Physics"
-
-      - name: Programming
-        keywords: "Python, Matlab"
-
-      - name: Software
-        keywords: "LaTeX, Mathematica"
-
-    Languages:
-      - name: Chinese
-        summary: Native
-
-      - name: English
-        summary: Fluent
-
-      - name: French
-        summary: Basic
+      - name: Programming & Tools
+        keywords: "Python, Matlab, LaTeX, Mathematica"
+      - name: Languages
+        keywords: "Chinese (Native), English (Fluent), French (Basic)"
 
     Interests:
       - name: Chess
