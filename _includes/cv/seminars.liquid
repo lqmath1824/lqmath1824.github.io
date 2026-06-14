@@ -1,33 +1,63 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<div class="card-text font-weight-light">
   {% for entry in entries %}
-    <li class="list-group-item">
-      <div class="row align-items-baseline">
-        <div class="col-3 ps-4 pe-2">
-          <span class="text-muted small">
-            {% if entry.start_date %}
-              {{ entry.start_date | date: "%Y-%m" }}
-              {% if entry.end_date %} — {{ entry.end_date | date: "%Y-%m" }}{% endif %}
-            {% elsif entry.date %}
-              {{ entry.date | date: "%Y-%m" }}
-            {% endif %}
-          </span>
-        </div>
-        <div class="col text-center">
-          {% if entry.role and entry.role != '' %}
-            <span class="text-muted small">{{ entry.role }}</span>
-            {% if entry.name %} &middot; {% endif %}
-          {% endif %}
-          {% if entry.name %}
-            <strong>{{ entry.name }}</strong>
-          {% endif %}
-        </div>
-        <div class="col-3 text-end ps-2 pe-4">
-          {% if entry.institution and entry.institution != '' %}
-            {% capture inst %}{{ entry.institution | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
-            <span class="text-muted small">{{ inst | replace: '<a ', '<a style="color:inherit;" ' }}</span>
-          {% endif %}
-        </div>
+    <div class="seminar-entry">
+      <div class="seminar-date">
+        {% if entry.start_date %}
+          {{ entry.start_date | date: "%Y-%m" }}
+          {% if entry.end_date %} — {{ entry.end_date | date: "%Y-%m" }}{% endif %}
+        {% elsif entry.date %}
+          {{ entry.date | date: "%Y-%m" }}
+        {% endif %}
       </div>
-    </li>
+      <div class="seminar-main">
+        {% if entry.role and entry.role != '' %}
+          <span class="seminar-role">{{ entry.role }}</span>
+          {% if entry.name %} &middot; {% endif %}
+        {% endif %}
+        {% if entry.name %}
+          <strong>{{ entry.name }}</strong>
+        {% endif %}
+      </div>
+      <div class="seminar-inst">
+        {% if entry.institution and entry.institution != '' %}
+          {% capture inst %}{{ entry.institution | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+          {{ inst | replace: '<a ', '<a style="color:inherit;" ' }}
+        {% endif %}
+      </div>
+    </div>
   {% endfor %}
-</ul>
+</div>
+
+<style>
+  .seminar-entry {
+    display: flex;
+    align-items: baseline;
+    padding: 0.55rem 0;
+  }
+  .seminar-entry:not(:last-child) {
+    border-bottom: 1px solid var(--global-border-color, #e0e0e0);
+  }
+  .seminar-date {
+    width: 20%;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light, #6c757d);
+  }
+  .seminar-main {
+    flex: 1;
+    text-align: center;
+  }
+  .seminar-main .seminar-role {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light, #6c757d);
+  }
+  .seminar-inst {
+    width: 20%;
+    text-align: right;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light, #6c757d);
+  }
+</style>
