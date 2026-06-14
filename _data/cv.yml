@@ -114,7 +114,7 @@ cv:
 
     Skills:
       - name: Programming & Tools
-        keywords: "Python, Matlab, LaTeX, Mathematica"
+        keywords: "Python, LaTeX, Matlab, Mathematica, SageMath, Git, Zotero"
       - name: Languages
         keywords: "Chinese (Native), English (Fluent), French (Basic)"
 
