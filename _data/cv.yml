@@ -135,17 +135,14 @@ cv:
     Interests:
       - name: Chess
         icon: fa-solid fa-chess
-        keywords: [positional play, endgame theory]
         description: Playing since age 12. Drawn to positional strategy — Nimzowitsch, Karpov, and the art of converting small advantages.
         page: /interests/chess/
 
       - name: Table Tennis
         icon: fa-solid fa-table-tennis
-        keywords: [forehand loop, footwork]
 
       - name: Road Cycling
         icon: fa-solid fa-bicycle
-        keywords: [endurance, hill climbing]
 
     Employment:
       - company: Institute for Advanced Study
