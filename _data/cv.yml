@@ -140,9 +140,13 @@ cv:
 
       - name: Table Tennis
         icon: fa-solid fa-table-tennis
+        description: Two-winged looper, forehand-dominant attacking style. Geometry at 100 km/h.
+        page: /interests/table-tennis/
 
       - name: Road Cycling
         icon: fa-solid fa-bicycle
+        description: Endurance rides, hill climbs, and the open road. The best way to clear the mind.
+        page: /interests/cycling/
 
     Employment:
       - company: Institute for Advanced Study
