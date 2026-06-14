@@ -1,6 +1,6 @@
 ---
 layout: course
-title: "Linear Algebra B: TA w/ Recitation"
+title: "Linear Algebra B (TA w/ Rec)"
 description: Teaching Assistant with weekly recitation sessions covering problem-solving techniques.
 instructor: Prof. 章复熹
 role: TA with Recitation

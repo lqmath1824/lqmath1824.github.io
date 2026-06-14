@@ -1,6 +1,6 @@
 ---
 layout: course
-title: "Calculus D (TA w/ Recitation)"
+title: "Calculus D (TA w/ Rec)"
 description: Teaching Assistant with weekly recitation sessions covering problem-solving techniques.
 instructor: Prof. 肖左利
 role: TA with Recitation
