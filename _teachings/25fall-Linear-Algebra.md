@@ -1,6 +1,6 @@
 ---
 layout: course
-title: "Linear Alg. B (TA w/ Recitation)"
+title: "Linear Alg. B: TA w/ Recitation"
 description: Teaching Assistant with weekly recitation sessions covering problem-solving techniques.
 instructor: Prof. 章复熹
 role: TA with Recitation
