@@ -27,7 +27,9 @@ I started playing chess at the age of 12, learning the fundamentals from classic
 
 ## Favorite Resources
 
-- [Lichess](https://lichess.org) — my primary platform for online play and analysis
+- [残局七子数据库](https://syzygy-tables.info/)
+- [Lichess](https://lichess.org)
+- [Chess](https://www.chess.com)
 - *My System* by Aron Nimzowitsch — the classic that shaped my positional understanding
 - *Dvoretsky's Endgame Manual* — endlessly challenging
 
