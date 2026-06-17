@@ -15,7 +15,7 @@ description: My journey with chess — from learning the basics to competitive p
 - 2012年全国国际象棋少年棋王棋后赛（秦皇岛，北戴河阳光培训中心）
 - 2013年常青藤全国国际象棋公开赛（西安，西安东方大酒店）
 - 2014年环渤海城市国际象棋少年精英赛（北京，丰台空军招待所）
-- 2014年国象常青藤全国国际象棋公开赛（长沙，长沙隆华国际酒店）【晋升候补棋协大师】
+- 2014年常青藤全国国际象棋公开赛（长沙，长沙隆华国际酒店）【晋升候补棋协大师】
 - 2015年全国国际象棋棋协大师赛(青岛，鲁邦国际风情街)
 - 2016年第二届“中孚杯”全国国际象棋公开赛（石家庄，正定金星假日大酒店）
 - 2021 1st FIDE world university online championship
@@ -23,7 +23,7 @@ description: My journey with chess — from learning the basics to competitive p
 
 > "Chess is not always about winning. Sometimes it's about learning to make the best move in a difficult position." — A lesson that applies equally to mathematics.
 
-## 链接存档
+## 可用链接(updating)
 
 - [残局七子数据库](https://syzygy-tables.info/)
 - [Lichess](https://lichess.org)

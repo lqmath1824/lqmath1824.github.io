@@ -6,20 +6,25 @@ nav: false
 description: My table tennis journey — from dormitory matches to club competitions.
 ---
 
-## My Table Tennis Journey
+## Selected Pictures/Events
+updating
 
-Table tennis has been my go-to sport since undergraduate days. What started as casual dormitory matches quickly turned into a genuine obsession — the speed, spin, and split-second decision-making make every rally uniquely challenging.
+## 球拍配置
 
-## Playing Style
-
-I play as a **two-winged looper**, relying on a forehand-dominant attacking style with heavy topspin. My current setup is a 5-ply all-wood blade with tacky Chinese rubber on the forehand and softer European rubber on the backhand.
+- Butterfly Korbel 狂飙+Rozena
+- Butterfly TimoBoll ALC D05+T64
+- 红双喜 龙5 狂飙+D09c
 
 > "Table tennis is geometry at 100 km/h." — every ball describes a curve in space, and reading that curve is half the game.
 
-## Favorite Players
+## Favorite Players&Matches
 
 - **Ma Long** — the Dragon, complete technique and unrivaled footwork
 - **Timo Boll** — elegant, sportsmanlike, timeless
+- 2017杜塞尔多夫世乒赛决赛
+- 2021东京奥运会决赛
+- 2024澳门世界杯决赛
+- (updating)
 
 ## Favorite Resources
 
