@@ -10,9 +10,13 @@ description: My road cycling adventures — endurance, exploration, and the open
 
 Road cycling is where I find both physical challenge and mental clarity. There is something meditative about settling into a rhythm on a long stretch of road, the landscape unfolding at just the right pace to absorb it.
 
-## Riding Style
-
-I'm drawn to **endurance rides** — 80 to 150 km routes that take you out of the city and into the countryside. Hill climbing is my favorite kind of suffering: a test of pacing, power-to-weight ratio, and sheer stubbornness.
+## 常用赛段及路线
+- [正爬戒台寺](https://www.strava.com/segments/37020911)
+- [正爬潭王路](https://www.strava.com/segments/7104010)
+- [反爬潭王路](https://www.strava.com/segments/14709633)
+- [妙峰山](https://www.strava.com/segments/4795483)
+- [海淀公园一圈](https://www.strava.com/segments/12842201)
+- [海淀公园四圈](https://www.strava.com/segments/26061412)
 
 ## Favorite Routes
 
