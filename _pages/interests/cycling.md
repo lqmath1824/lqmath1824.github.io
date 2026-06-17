@@ -18,14 +18,12 @@ Road cycling is where I find both physical challenge and mental clarity. There i
 - [海淀公园一圈](https://www.strava.com/segments/12842201)
 - [海淀公园四圈](https://www.strava.com/segments/26061412)
 
-## Favorite Routes
-
-- Beijing's **Miaofeng Mountain** (妙峰山) — the classic 21 km climb, a rite of passage for every Beijing cyclist
-- The road from Haidian out to **Ming Tombs Reservoir** (十三陵水库)
 
 ## Current Bike
 
-A lightweight carbon road bike — nothing too flashy, but reliable and responsive on the climbs.
+- Merida Scultra 93 2021
+- Pardus Robin evo 2022
+- Cannondale supersix evo liquidgas 2013
 
 ## Favorite Resources
 
