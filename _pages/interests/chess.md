@@ -20,7 +20,6 @@ description: My journey with chess — from learning the basics to competitive p
 - 2016年第二届“中孚杯”全国国际象棋公开赛（石家庄，正定金星假日大酒店）
 - 2021 1st FIDE world university online championship
 
-
 > "Chess is not always about winning. Sometimes it's about learning to make the best move in a difficult position." — A lesson that applies equally to mathematics.
 
 ## 可用链接(updating)
