@@ -28,6 +28,11 @@ Road cycling is where I find both physical challenge and mental clarity. There i
 
 ## Selected Pictures
 
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+  <img src="/assets/img/cycling/cycling_1.jpg" alt="Cycling" style="width: 48%; min-width: 280px; border-radius: 6px;">
+  <img src="/assets/img/cycling/cycling_2.jpg" alt="Cycling" style="width: 48%; min-width: 280px; border-radius: 6px;">
+</div>
+
 ## Favorite Resources
 
 - [Strava](https://www.strava.com/) — tracking rides and competing on segments

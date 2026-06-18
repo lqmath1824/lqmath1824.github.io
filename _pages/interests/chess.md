@@ -29,6 +29,7 @@ description: My journey with chess — from learning the basics to competitive p
 - [Chess](https://www.chess.com)
 - *My System* by Aron Nimzowitsch — the classic that shaped my positional understanding
 - *Dvoretsky's Endgame Manual* — endlessly challenging
+- [WUOCC Certificate](/assets/pdf/chess/wuocc_certificate.pdf)
 
 ---
 

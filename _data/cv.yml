@@ -100,6 +100,11 @@ cv:
         start_date: 2025-03-01
         end_date: 2025-05-01
 
+      - name: Visiting Student at HongKong University
+        institution: HongKong University
+        start_date: 2025-07-15
+        end_date: 2025-07-22
+
       - name: Seminar on Quantum Groups
         role: Organizer
         institution: Peking University
@@ -121,21 +126,21 @@ cv:
     Interests:
       - name: Chess
         icon: fa-solid fa-chess
-        description: Playing since age 12. Drawn to positional strategy — Nimzowitsch, Karpov, and the art of converting small advantages.
+        description: chess description here
         page: /interests/chess/
 
       - name: Table Tennis
         icon: fa-solid fa-table-tennis
-        description: Two-winged looper, forehand-dominant attacking style. Geometry at 100 km/h.
+        description: table tennis description here
         page: /interests/table-tennis/
 
       - name: Road Cycling
         icon: fa-solid fa-bicycle
-        description: Endurance rides, hill climbs, and the open road. The best way to clear the mind.
+        description: road cycling description here
         page: /interests/cycling/
 
     Employment:
-      - company: Institute for Advanced Study
+      - company: Institute for Advanced Study (Example)
         position: Visiting Scholar
         location: Princeton, NJ
         start_date: 2027
@@ -146,7 +151,7 @@ cv:
         url: ""
 
     Grants:
-      - name: National Natural Science Foundation Young Scientists Fund
+      - name: National Natural Science Foundation Young Scientists Fund (Example)
         funder: NSFC
         date: 2026
         amount: "300,000 CNY"
