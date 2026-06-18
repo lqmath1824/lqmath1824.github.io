@@ -100,8 +100,8 @@ cv:
         start_date: 2025-03-01
         end_date: 2025-05-01
 
-      - name: Visiting Student at HongKong University
-        institution: HongKong University
+      - name: Visiting Student at Hong Kong University
+        institution: Hong Kong University
         start_date: 2025-07-15
         end_date: 2025-07-22
 
