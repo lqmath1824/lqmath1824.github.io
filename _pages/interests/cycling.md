@@ -22,9 +22,13 @@ Road cycling is where I find both physical challenge and mental clarity. There i
 - Merida Scultra 93 2021
 - Pardus Robin evo 2022
 - Cannondale supersix evo liquidgas 2013
+- 圈刹
 - Cervelo R5 红上管
-- Lapierre xelius sl 皮诺蓝白
-- Scott addict sl/ Canyon hmx
+- Lapierre xelius sl 皮诺蓝白队版
+- Giant tcr adv 拉波银行队版
+- Focus izalco max ag2r队版
+- Scott addict sl 绿刃队版
+- Canyon hmx?
 
 ## Selected Pictures
 
