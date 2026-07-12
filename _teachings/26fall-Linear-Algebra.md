@@ -2,7 +2,7 @@
 layout: course
 title: "Linear Algebra B (TA w/ Rec)"
 description: Teaching Assistant with recitation sessions covering problem-solving techniques.
-instructor: Prof. 尹航
+instructor: Dr. 尹航
 role: TA with Recitation
 year: 2026
 term: Fall
