@@ -10,4 +10,4 @@ course_id: linear-algebra-b-26
 
 ---
 
-As a TA with recitation duties, I conducted recitation sessions every two weeks for Linear Algebra B. The two-houred course covers frequent mistakes in homework, supplementary problems&examples, and extended theory/exercises.
+As a TA with recitation duties, I conduct recitation sessions every two weeks for Linear Algebra B. The two-houred course covers frequent mistakes in homework, supplementary problems&examples, and extended theory/exercises.
