@@ -44,14 +44,6 @@ cv:
         awarder: Peking University
         date: 2025
 
-      - title: Hui-Chun Chin and Tsung-Dao Lee Chinese Undergraduate Research Endowment
-        awarder: Peking University
-        date: 2022
-
-      - title: Elite Education Program in Basic Mathematics
-        awarder: School of Mathematical Sciences, Peking University
-        date: 2021
-
     Talks:
       - title: BIRS Workshop "Around Singularities in Poisson Geometry"
         conference: ""
@@ -160,11 +152,18 @@ cv:
         url: ""
 
     Grants:
-      - name: National Natural Science Foundation Young Scientists Fund (Example)
-        funder: NSFC
-        date: 2026
-        amount: "300,000 CNY"
-        duration: 2026-2028
+      - name: Hui-Chun Chin and Tsung-Dao Lee Chinese Undergraduate Research Endowment
+        funder: Peking University
+        date: 2022
+        amount: ""
+        duration: 2022-2023
+        url: ""
+
+      - name: Elite Education Program in Basic Mathematics
+        funder: School of Mathematical Sciences, Peking University
+        date: 2021
+        amount: ""
+        duration: 2021-2024
         url: ""
 
     Certificates:
