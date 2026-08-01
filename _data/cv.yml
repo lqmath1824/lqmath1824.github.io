@@ -140,16 +140,16 @@ cv:
         description: road cycling description here
         page: /interests/cycling/
 
-    Employment:
-      - company: Institute for Advanced Study (Example)
-        position: Visiting Scholar
-        location: Princeton, NJ
-        start_date: 2027
-        end_date: 2028
-        summary: Short-term academic visit for collaborative research.
-        highlights:
-          - Collaborated with Prof. Example on quantum groups.
-        url: ""
+    # Employment: # TEMPLATE — 有实际经历时取消注释并填写
+    #   - company: Institute for Advanced Study (Example)
+    #     position: Visiting Scholar
+    #     location: Princeton, NJ
+    #     start_date: 2027
+    #     end_date: 2028
+    #     summary: Short-term academic visit for collaborative research.
+    #     highlights:
+    #       - "Collaborated with Prof. Example on quantum groups."
+    #     url: ""
 
     Grants:
       - name: Hui-Chun Chin and Tsung-Dao Lee Chinese Undergraduate Research Endowment
@@ -167,7 +167,7 @@ cv:
         url: ""
 
     Certificates:
-      - name: Teaching Certificate for Higher Education
+      - name: Teaching Assistant Certificate for Higher Education
         issuer: Peking University
         date: 2025
         url: ""
