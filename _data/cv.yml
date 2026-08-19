@@ -45,6 +45,20 @@ cv:
         date: 2025
 
     Talks:
+      - title: "Poisson school 2026"
+        conference: "Universiteit Antwerpen"
+        location: Antwerp, Belgium
+        date: 2026-08-02
+        type: Poster
+        url: "https://www.uantwerpen.be/nl/personeel/sonja-hohloch/private-webpage/conference-workshop/poissonschool2026/"
+
+      - title: "Poisson 2026 conference"
+        conference: "KU Leuven"
+        location: Leuven, Belgium
+        date: 2026-08-09
+        type: Poster
+        url: "https://wis.kuleuven.be/events/2026_poisson/conference_poisson2026"
+
       - title: BIRS Workshop "Around Singularities in Poisson Geometry"
         conference: ""
         location: "[Institute for Advanced Study in Mathematics, Hangzhou](http://www.iasm.zju.edu.cn)"
