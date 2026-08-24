@@ -46,15 +46,15 @@ cv:
 
     Talks:
       - title: "Poisson school 2026"
-        conference: "[Universiteit Antwerpen](https://www.uantwerpen.be/nl/personeel/sonja-hohloch/private-webpage/conference-workshop/poissonschool2026/)"
-        location: Antwerp, Belgium
+        conference: ""
+        location: "[Universiteit Antwerpen · Antwerp, Belgium](https://www.uantwerpen.be)"
         date: 2026-08-02
         type: Poster
         url: "https://www.uantwerpen.be/nl/personeel/sonja-hohloch/private-webpage/conference-workshop/poissonschool2026/"
 
       - title: "Poisson 2026 conference"
-        conference: "[KU Leuven](https://wis.kuleuven.be/events/2026_poisson/conference_poisson2026)"
-        location: Leuven, Belgium
+        conference: ""
+        location: "[KU Leuven · Leuven, Belgium](https://wis.kuleuven.be)"
         date: 2026-08-09
         type: Poster
         url: "https://wis.kuleuven.be/events/2026_poisson/conference_poisson2026"
