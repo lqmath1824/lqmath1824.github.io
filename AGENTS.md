@@ -1,56 +1,33 @@
-# Agent Guidelines for al-folio (v1.x)
+# Agent Guidelines — lqmath1824.github.io（Qiao Li 的个人主页）
 
-`al-folio` is the **starter repo** for the pluginized v1 architecture.
+本仓库是 Qiao Li（李乔）的个人学术主页，基于 **al-folio v1.x** 架构（Jekyll + `al_folio_core` 主题插件 + Tailwind v4），由 GitHub Actions 在推送 `master` 时自动构建并部署到 GitHub Pages。
 
-## Read This First
+## 两条最高优先级决策（用户明示，务必遵守）
 
-- Start with `.github/copilot-instructions.md` for architecture, ownership boundaries, and CI expectations.
-- Use `docs/BOUNDARIES.md` as the source of truth for starter-vs-plugin ownership.
-- Use `.agents/skills/al-folio-bootstrap/SKILL.md` for new-site setup tasks.
-- Use `.agents/skills/al-folio-v1-migration/SKILL.md` for customized fork migrations.
-- `.codex/skills` and `.claude/skills` are symlinks to `.agents/skills` for agent-specific discovery.
+1. **已与上游 al-folio 脱钩，不再跟随上游更新。**
+   - 不要运行 `bundle exec al-folio upgrade audit` / `overrides audit` / `report` 等升级审计命令。
+   - 不需要维护 `.al-folio-overrides.yml` 覆盖清单，不需要关注 gem 上游版本漂移。
+   - 不需要把改动"路由"回上游 gem 仓库；本仓库只做本地覆盖（`_includes/`、`_pages/`、`_data/` 等），这是最终形态，不是临时 fork。
+   - Gemfile / Gemfile.lock / `_config.yml` 中的插件版本按现状冻结使用，除非用户明确要求升级。
 
-## What This Repo Owns
+2. **不需要本机验证，信任智能体的改动。**
+   - 不要在本机运行 `bundle exec jekyll build/serve`、集成测试、Playwright、lint 等验证命令（本机 Ruby 2.6.10 也跑不动本项目）。
+   - 不要做逐文件的详细本地复查；用户信任大部分操作是正确的。
+   - 改完即提交推送，由 GitHub Actions CI 负责构建验证（可关注 Actions 结果，但不必在本地复现）。
+   - 改动仍需认真、自洽、符合仓库现有约定——只是不需要花时间做本地验证。
 
-- Starter wiring (`Gemfile`, `_config.yml`)
-- Starter content and documentation
-- Cross-plugin integration tests
-- Visual regression tests
+## 项目结构与常见改动位置
 
-Runtime/component logic belongs in owning plugin repos (`al_folio_core`, `al_folio_distill`, `al_search`, `al_icons`, `al_cookie`, and other `al-*` gems).
-Long-form documentation lives in `docs/`; keep this root file as the short discovery entry point for coding agents.
+- `_pages/` — 页面（about / publications / teaching / cv / blog / projects / news / interests/*）
+- `_bibliography/papers.bib` — 论文库（新增论文写这里，由 jekyll-scholar 渲染）
+- `_news/` — 新闻条目（每条一个 md）
+- `_teachings/` — 课程页（front matter 含 schedule，可挂习题课讲义 PDF）
+- `_data/` — 结构化数据：`cv.yml`（CV 内容）、`socials.yml`（社交账号）、`upcoming_events.yml`（首页近期活动）、`coauthors.yml` 等
+- `_includes/` — 本地覆盖/自建模板（`head.liquid`、`upcoming_events.liquid`、`cv/*.liquid` 都是自建或覆盖的）
+- `assets/pdf/` — PDF 资源（CV、习题课讲义等）
 
-## Validated Local Command Set
+## 架构要点（理解用，不影响上述决策）
 
-Run from repo root:
-
-```bash
-npm ci
-npm run lint:prettier
-npm run lint:style-contract
-bundle exec jekyll build --baseurl /al-folio
-bash test/integration_comments.sh
-bash test/integration_plugin_toggles.sh
-bash test/integration_distill.sh
-bash test/integration_bootstrap_compat.sh
-bash test/integration_upgrade_cli.sh
-npx playwright install chromium webkit
-npm run test:visual
-bundle exec al-folio upgrade audit
-bundle exec al-folio upgrade overrides audit
-bundle exec al-folio upgrade report
-docker compose up -d
-curl -fsS http://127.0.0.1:8080/al-folio/ >/dev/null
-docker compose logs --tail=80
-docker compose down
-```
-
-Docker note: v1 uses `/srv/jekyll/bin/entry_point.sh` and serves from container-local `/tmp/_site` to avoid host bind-mount write deadlocks.
-
-## Agent Routing Rules
-
-- If change is starter wiring/docs/integration/visual testing: edit here.
-- If change is runtime feature behavior: route to owning plugin repo.
-- Do not add starter-local npm build scripts for theme/runtime assets.
-- Keep docs aligned with pluginized v1 ownership.
-- If you create or keep local overrides of plugin-owned files, run `bundle exec al-folio upgrade overrides audit` and commit `.al-folio-overrides.yml` after review.
+- 运行时逻辑在 `al_folio_core` 等 gem 里；本仓库通过本地 `_includes/` shadow 覆盖来定制渲染，这是仓库已确立的做法。
+- 功能开关在 `_config.yml`：`search_enabled`、`enable_math`、`enable_darkmode`、`enable_masonry` 等。
+- 部署：push 到 `master` → `.github/workflows/deploy.yml` 构建 `_site` 并发布。更新站点 = 改文件 → commit → push。
