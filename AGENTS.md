@@ -31,3 +31,12 @@
 - 运行时逻辑在 `al_folio_core` 等 gem 里；本仓库通过本地 `_includes/` shadow 覆盖来定制渲染，这是仓库已确立的做法。
 - 功能开关在 `_config.yml`：`search_enabled`、`enable_math`、`enable_darkmode`、`enable_masonry` 等。
 - 部署：push 到 `master` → `.github/workflows/deploy.yml` 构建 `_site` 并发布。更新站点 = 改文件 → commit → push。
+
+### al-folio v1 渲染机制速查（原 CLAUDE.md 保留内容，做高级改动时有用）
+
+- **功能是两层门控**：站点级 `_config.yml` 开关（`enable_math`、`search_enabled` 等）+ 页面级 front matter（`chart.*`、`mermaid.*`、`tikzjax`、`giscus_comments` 等）。开关/插件缺失时标签静默输出空串，不会报错。
+- **`_includes/plugins/*.liquid` 是薄包装**：调用各插件 gem 的自定义 Liquid 标签，只有"插件在 plugins 列表 + 开关打开"两者都满足才渲染。常用映射：`al_search_assets`→al_search（Cmd-K 搜索）、`al_math_styles/scripts`→al_math（MathJax）、`al_icons_styles`→al_icons、`al_folio_cv_render`→al_folio_cv、`al_folio_distill_render`→al_folio_distill、`al_charts_scripts`→al_charts、`al_img_tools_styles/scripts`→al_img_tools。
+- **两份清单需保持一致**：`Gemfile`（固定版本）与 `_config.yml` 的 `plugins:` 列表；增删插件要同时改两处。
+- **v1 配置契约**（`al_folio.api_version: 1`、`style_engine: tailwind`、`tailwind.{version,css_entry,preflight}`、`distill.{engine,source}`）由 `al_folio_core` 构建时校验，不要删除这些键。
+- **第三方库 CDN + SRI**：`_config.yml` 的 `third_party_libraries:` 块按需注入 JS/CSS（MathJax、tocbot、mermaid、highlight.js 等），有版本和完整性哈希。
+- **搜索索引**：`al_search` 在构建时从内容生成索引，`search_enabled: true` 时 Cmd-K 可用。
