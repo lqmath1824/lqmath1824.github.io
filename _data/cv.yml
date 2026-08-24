@@ -45,47 +45,50 @@ cv:
         date: 2025
 
     Talks:
-      - title: "Poisson school 2026"
-        conference: ""
-        location: "[Universiteit Antwerpen · Antwerp, Belgium](https://www.uantwerpen.be)"
+      - conference: "Poisson school 2026"
+        affiliation: "[Universiteit Antwerpen](https://www.uantwerpen.be)"
+        location: Antwerp, Belgium
         date: 2026-08-02
         type: Poster
         url: "https://www.uantwerpen.be/nl/personeel/sonja-hohloch/private-webpage/conference-workshop/poissonschool2026/"
 
-      - title: "Poisson 2026 conference"
-        conference: ""
-        location: "[KU Leuven · Leuven, Belgium](https://wis.kuleuven.be)"
+      - conference: "Poisson 2026 conference"
+        affiliation: "[KU Leuven](https://wis.kuleuven.be)"
+        location: Leuven, Belgium
         date: 2026-08-09
         type: Poster
         url: "https://wis.kuleuven.be/events/2026_poisson/conference_poisson2026"
 
-      - title: BIRS Workshop "Around Singularities in Poisson Geometry"
-        conference: ""
-        location: "[Institute for Advanced Study in Mathematics · Hangzhou](http://www.iasm.zju.edu.cn)"
+      - conference: BIRS Workshop "Around Singularities in Poisson Geometry"
+        affiliation: "[Institute for Advanced Study in Mathematics](http://www.iasm.zju.edu.cn)"
+        location: Hangzhou
         date: 2025-08-01
         type: Lightning Talk
         url: "https://www.birs.ca/events/2025/5-day-workshops/25w5442"
 
-      - title: Chun-Tsung Scholar CURE Program Exchange Conference
-        conference: ""
-        location: "[Shanghai Jiao Tong University · Shanghai](https://www.sjtu.edu.cn)"
+      - conference: Chun-Tsung Scholar CURE Program Exchange Conference
+        affiliation: "[Shanghai Jiao Tong University](https://www.sjtu.edu.cn)"
+        location: Shanghai
         date: 2023-11-01
         type: Presentation
         url: "https://affairs.sjtu.edu.cn/index.php?m=app&mid=27&v=newsview&id=295"
 
     Attended_Conferences:
-      - name: Conference on Representations of Quivers in Mathematics and String Theory
-        location: "[Institute for Basic Science · Pohang](https://www.ibs.re.kr/eng.do)"
+      - conference: Conference on Representations of Quivers in Mathematics and String Theory
+        affiliation: "[Institute for Basic Science](https://www.ibs.re.kr/eng.do)"
+        location: Pohang
         date: 2025-12-01
         url: "https://cgp.ibs.re.kr/conferences/2025CRQMST/"
 
-      - name: Cluster Algebra, Representation Theory and Algebraic Geometry
-        location: "[the University of Hong Kong · Hong Kong](https://www.hku.hk)"
+      - conference: Cluster Algebra, Representation Theory and Algebraic Geometry
+        affiliation: "[the University of Hong Kong](https://www.hku.hk)"
+        location: Hong Kong
         date: 2025-11-01
         url: "https://hkumath.hku.hk/~imr/event/Conference2025/index.php"
 
-      - name: Workshop on Integrable Systems
-        location: "[Beijing Institute of Mathematical Sciences and Applications · Beijing](https://www.bimsa.cn)"
+      - conference: Workshop on Integrable Systems
+        affiliation: "[Beijing Institute of Mathematical Sciences and Applications](https://www.bimsa.cn)"
+        location: Beijing
         date: 2023-05-01
         url: "https://www.bimsa.cn/zh-CN/research_detail/integrablesystemsworkshop.html"
 
