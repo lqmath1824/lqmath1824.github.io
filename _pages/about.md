@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am Qiao Li (李乔), a Ph.D. student in the [School of Mathematical Sciences](https://www.math.pku.edu.cn/) at [Peking University](https://www.pku.edu.cn/). My research interests include [**Quantum Algebra**](https://arxiv.org/list/math.QA/recent){: style="text-decoration: underline"}, [**Representation Theory**](https://arxiv.org/list/math.RT/recent){: style="text-decoration: underline"}, and [**Mathematical Physics**](https://arxiv.org/list/math-ph/recent){: style="text-decoration: underline"}.
+Hi, I am Qiao Li (李乔), a Ph.D. student in the [School of Mathematical Sciences](https://www.math.pku.edu.cn/) at [Peking University](https://www.pku.edu.cn/). My research interests include [**Quantum Algebra**](https://arxiv.org/list/math.QA/recent){: class="hover-underline"}, [**Representation Theory**](https://arxiv.org/list/math.RT/recent){: class="hover-underline"}, and [**Mathematical Physics**](https://arxiv.org/list/math-ph/recent){: class="hover-underline"}.
 
 I obtained both my B.S. in Pure and Applied Mathematics and B.A. in Chinese Language and Literature from Peking University in 2024. I am currently pursuing my Ph.D. in Pure Mathematics under the supervision of Prof. Xiaomeng Xu.
 
