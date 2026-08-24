@@ -4,6 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 @AGENTS.md
 
+> **⚠️ 站点现状（最高优先级，覆盖下文一切"上游/本地验证"描述）**
+> 本仓库是 Qiao Li 的个人主页，**已与上游 al-folio 脱钩**：不跟随上游更新、不做 upgrade/overrides 审计、不把改动路由回 gem 仓库。
+> **不做本机验证**：不跑 `bundle exec jekyll build/serve`、集成测试、lint 等；改完直接提交推送，由 GitHub Actions 构建。
+> 这两条以 `AGENTS.md` 为准；下文所有假设上游工作流的描述（daily dev loop、Docker 服务、CI gates 等）仅作架构背景参考，**不是本仓库的日常工作流**。
+
 The import above (`AGENTS.md`, which itself defers to `.github/copilot-instructions.md` and `docs/BOUNDARIES.md`) is the canonical short entry point: ownership boundaries, the validated command set, and PR-routing rules. Keep `AGENTS.md` short and ecosystem-neutral — put Claude-specific or longer-form guidance here instead. Everything below is the cross-repo "big picture" that those files assume but don't spell out.
 
 ## What this repo is
