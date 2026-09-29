@@ -172,12 +172,10 @@ cv:
       - name: CAST Young Science and Technology Talent Cultivation Project PhD Program
         funder: China Association for Science and Technology
         date: 2026
-        amount: "10,000 CNY"
+        amount: "" #10,000 CNY
         duration: "" #2026-2027
         url: ""
-
-
-
+        
       - name: Hui-Chun Chin and Tsung-Dao Lee Chinese Undergraduate Research Endowment
         funder: Peking University
         date: 2022
