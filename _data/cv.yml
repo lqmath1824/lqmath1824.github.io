@@ -36,11 +36,11 @@ cv:
 
 
     Awards:
-      - title: Merit Student Pacesetter
+      - title: Merit Student Pacesetter; Jinde Elite Scholarship
         awarder: Peking University
-        date: 2025
+        date: 2026
 
-      - title: Canon Scholarship
+      - title: Merit Student Pacesetter; Canon Scholarship
         awarder: Peking University
         date: 2025
 
@@ -169,18 +169,27 @@ cv:
     #     url: ""
 
     Grants:
+      - name: CAST Young Science and Technology Talent Cultivation Project PhD Program
+        funder: China Association for Science and Technology
+        date: 2026
+        amount: "10,000 CNY"
+        duration: "" #2026-2027
+        url: ""
+
+
+
       - name: Hui-Chun Chin and Tsung-Dao Lee Chinese Undergraduate Research Endowment
         funder: Peking University
         date: 2022
         amount: ""
-        duration: 2022-2023
+        duration: "" #2022-2023
         url: ""
 
       - name: Elite Education Program in Basic Mathematics
         funder: School of Mathematical Sciences, Peking University
         date: 2021
         amount: ""
-        duration: 2021-2024
+        duration: "" #2021-2024
         url: ""
 
     Certificates:
