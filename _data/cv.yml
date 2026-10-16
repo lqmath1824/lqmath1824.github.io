@@ -137,7 +137,7 @@ cv:
 
     Skills:
       - name: Programming & Tools
-        keywords: "Python, LaTeX, Matlab, Mathematica, SageMath, Git, Zotero"
+        keywords: "Python, LaTeX, Lean, Git, CodeX, DSH, Matlab, Mathematica, SageMath, Zotero"
       - name: Languages
         keywords: "Chinese (Native), English (Fluent), French (Basic)"
 
@@ -175,7 +175,7 @@ cv:
         amount: "" #10,000 CNY
         duration: "" #2026-2027
         url: ""
-        
+
       - name: Hui-Chun Chin and Tsung-Dao Lee Chinese Undergraduate Research Endowment
         funder: Peking University
         date: 2022
